@@ -1,0 +1,37 @@
+top\_level\_project.package1 package
+====================================
+
+Subpackages
+-----------
+
+.. toctree::
+
+   top_level_package.package1.subpackage1
+
+Submodules
+----------
+
+top\_level\_project.package1.module1 module
+-------------------------------------------
+
+.. automodule:: top_level_package.package1.module1
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+top\_level\_project.package1.module2 module
+-------------------------------------------
+
+.. automodule:: top_level_package.package1.module2
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+
+Module contents
+---------------
+
+.. automodule:: top_level_package.package1
+   :members:
+   :undoc-members:
+   :show-inheritance:

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PylintConfigService">
+    <option name="customPylintPath" value="C:\Users\philipp.kuehne\Desktop\Python_Test\Project_Structure\venv\Scripts\pylint.exe" />
+    <option name="pylintrcPath" value="C:\Users\philipp.kuehne\Desktop\Python_Test\Project_Structure\pylintrc" />
+  </component>
+</project>

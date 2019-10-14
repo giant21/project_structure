@@ -1,0 +1,204 @@
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta charset="utf-8" />
+    <title>program package &#8212; Project_Structure 0.1 documentation</title>
+    <link rel="stylesheet" href="_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <script type="text/javascript" src="_static/language_data.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="prev" title="Documentation for the code" href="index.html" />
+   
+  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <div class="section" id="program-package">
+<h1>program package<a class="headerlink" href="#program-package" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="module-program">
+<span id="module-contents"></span><h2>Module contents<a class="headerlink" href="#module-program" title="Permalink to this headline">¶</a></h2>
+</div>
+<div class="section" id="submodules">
+<h2>Submodules<a class="headerlink" href="#submodules" title="Permalink to this headline">¶</a></h2>
+</div>
+<div class="section" id="module-program.main">
+<span id="program-main-module"></span><h2>program.main module<a class="headerlink" href="#module-program.main" title="Permalink to this headline">¶</a></h2>
+<p>Main module with class car</p>
+<dl class="attribute">
+<dt id="program.main.NUMBER_OF_CARS">
+<code class="sig-prename descclassname">program.main.</code><code class="sig-name descname">NUMBER_OF_CARS</code><a class="headerlink" href="#program.main.NUMBER_OF_CARS" title="Permalink to this definition">¶</a></dt>
+<dd><p>number of available cars</p>
+<dl class="field-list simple">
+<dt class="field-odd">Type</dt>
+<dd class="field-odd"><p>int</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="class">
+<dt id="program.main.Car">
+<em class="property">class </em><code class="sig-prename descclassname">program.main.</code><code class="sig-name descname">Car</code><span class="sig-paren">(</span><em class="sig-param">model</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/program/main.html#Car"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#program.main.Car" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<p>Class for cars</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>model</strong> (<em>str</em>) – name of car model</p>
+</dd>
+</dl>
+<dl class="attribute">
+<dt id="program.main.Car.model">
+<code class="sig-name descname">model</code><a class="headerlink" href="#program.main.Car.model" title="Permalink to this definition">¶</a></dt>
+<dd><p>name of car model</p>
+<dl class="field-list simple">
+<dt class="field-odd">Type</dt>
+<dd class="field-odd"><p>str</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="program.main.Car.status">
+<code class="sig-name descname">status</code><a class="headerlink" href="#program.main.Car.status" title="Permalink to this definition">¶</a></dt>
+<dd><p>parking, driving or crashed. Default=parking</p>
+<dl class="field-list simple">
+<dt class="field-odd">Type</dt>
+<dd class="field-odd"><p>str</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="program.main.Car.speed">
+<code class="sig-name descname">speed</code><a class="headerlink" href="#program.main.Car.speed" title="Permalink to this definition">¶</a></dt>
+<dd><p>speed of the car. Default = 0</p>
+<dl class="field-list simple">
+<dt class="field-odd">Type</dt>
+<dd class="field-odd"><p>int</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="program.main.Car.drive">
+<code class="sig-name descname">drive</code><span class="sig-paren">(</span><em class="sig-param">speed</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/program/main.html#Car.drive"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#program.main.Car.drive" title="Permalink to this definition">¶</a></dt>
+<dd><p>Function to start the car with desired speed.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>speed</strong> (<em>int</em>) – speed of the car. How fast the car will drive.</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>None</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="program.main.Car.get_speed">
+<code class="sig-name descname">get_speed</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/program/main.html#Car.get_speed"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#program.main.Car.get_speed" title="Permalink to this definition">¶</a></dt>
+<dd><p>Function to determines speed of the car.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>speed of the car</p>
+</dd>
+<dt class="field-even">Return type</dt>
+<dd class="field-even"><p>int</p>
+</dd>
+</dl>
+</dd></dl>
+
+</dd></dl>
+
+</div>
+</div>
+
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="index.html">Project_Structure</a></h1>
+
+
+
+
+
+
+
+
+<h3>Navigation</h3>
+<ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#">program package</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#module-program">Module contents</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#submodules">Submodules</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#module-program.main">program.main module</a></li>
+</ul>
+</li>
+</ul>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="index.html">Documentation overview</a><ul>
+      <li>Previous: <a href="index.html" title="previous chapter">Documentation for the code</a></li>
+  </ul></li>
+</ul>
+</div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" />
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2019, Philipp.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.2.0</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
+      
+      |
+      <a href="_sources/program.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>

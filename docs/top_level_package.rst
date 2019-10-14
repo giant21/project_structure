@@ -1,0 +1,18 @@
+top\_level\_package package
+===========================
+
+Subpackages
+-----------
+
+.. toctree::
+
+   top_level_package.package1
+   top_level_package.package2
+
+Module contents
+---------------
+
+.. automodule:: top_level_package
+   :members:
+   :undoc-members:
+   :show-inheritance:

@@ -1,0 +1,23 @@
+program package
+===============
+
+Module contents
+---------------
+
+.. automodule:: program
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+Submodules
+----------
+
+program.main module
+-------------------
+
+.. automodule:: program.main
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+

@@ -69,4 +69,3 @@ class Car:
         """
 
         return self.speed
-

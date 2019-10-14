@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="82b86bbd-e710-42f1-9b1e-a1ac77d61c27" name="Default Changelist" comment="" />
+    <list default="true" id="82b86bbd-e710-42f1-9b1e-a1ac77d61c27" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/source/conf.py" beforeDir="false" afterPath="$PROJECT_DIR$/docs/source/conf.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/setup.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/project_structure/__main__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/project_structure/__main__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/project_structure/package1/module1.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/project_structure/package1/module1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/project_structure/package1/subpackage1/module3.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/project_structure/package1/subpackage1/module3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/project_structure/package2/module4.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/project_structure/package2/module4.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_car.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_car.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,8 +25,13 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1S2xxhdWIAEROeERBdK9KnYvb5n" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/project_structure" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.buildout.BuildoutModulesConfigurable" />
   </component>
@@ -175,6 +190,17 @@
       <updated>1570775739485</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

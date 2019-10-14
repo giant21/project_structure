@@ -3,9 +3,9 @@ import sys
 import unittest
 
 # add root_path/src to sys.path
-dir_path = os.path.dirname(os.path.realpath(__file__))
-path_to_add=os.path.abspath(os.path.join(dir_path, "../src/"))
-sys.path.append(path_to_add)
+DIR_PATH = os.path.dirname(os.path.realpath(__file__))
+PATH_TO_ADD = os.path.abspath(os.path.join(DIR_PATH, "../src/"))
+sys.path.append(PATH_TO_ADD)
 
 # import source code
 from project_structure.package1 import module1
@@ -29,8 +29,3 @@ class TestCar(unittest.TestCase):
         self.car.status = "crashed"
         self.car.drive(15)
         self.assertNotEqual(self.car.speed, 15)
-
-    def test_drive_from_driving(self):
-        self.car.status = "driving"
-        self.car.drive(20)
-        self.assertAlmostEqual(self.car.speed, 20)
